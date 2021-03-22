@@ -26,7 +26,7 @@ public class Zad4 {
         System.out.println("Podaj 2 liczby");
         int firstNumber = scanner.nextInt();
         int secondNumber = scanner.nextInt();
-        System.out.println("Wynik dzielenia to: "+divide(firstNumber,secondNumber));
+        System.out.println("Wynik dzielenia to: " + divide(firstNumber, secondNumber));
 
     }
 }
