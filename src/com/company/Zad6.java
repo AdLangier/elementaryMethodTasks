@@ -9,7 +9,7 @@ public class Zad6 {
     {
         int sum = 0;                                      // niestety ze względu na użycie typu "int" program jest ograniczony
         while (n != 0)                                    // do maksymalnej wartości "inta" przy użyciu double był problem
-        {                                                 // z formatowaniem
+        {                                                 // z formatowaniem (ale treść zadania zakłada użycie liczby całkowitej)
             sum = (sum + n % 10);
             n = n/10;                                     //WAŻNE rozpisać na czynniki pierwsze kolejność działania warunku w pętli
         }
