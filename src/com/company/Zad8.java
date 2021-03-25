@@ -8,11 +8,11 @@ public class Zad8 {
 
         int numberOfDividers = 0;
         for (int i = 1; i <= a; i++) {
-            if (a % i == 0){
+            if (a % i == 0) {
                 numberOfDividers++;
             }
         }
-        if(numberOfDividers == 2||numberOfDividers == 1){
+        if (numberOfDividers == 2 || numberOfDividers == 1) {
             return true;
         }
         return false;
@@ -22,7 +22,7 @@ public class Zad8 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj liczbę");
         int userNumber = scanner.nextInt();
-        System.out.println("Liczba jest pierwsza: "+isPrimeNumber(userNumber));
+        System.out.println("Liczba jest pierwsza: " + isPrimeNumber(userNumber));
 
     }
 }

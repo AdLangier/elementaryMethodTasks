@@ -11,7 +11,7 @@ public class Zad6 {
         while (n != 0)                                    // do maksymalnej wartości "inta" przy użyciu double był problem
         {                                                 // z formatowaniem (ale treść zadania zakłada użycie liczby całkowitej)
             sum = (sum + n % 10);
-            n = n/10;                                     //WAŻNE rozpisać na czynniki pierwsze kolejność działania warunku w pętli
+            n = n / 10;                                     //WAŻNE rozpisać na czynniki pierwsze kolejność działania warunku w pętli
         }
         return sum;
     }
@@ -19,6 +19,6 @@ public class Zad6 {
     public static void main(String[] args) {
         System.out.println("Podaj liczbę");
         int number = scanner.nextInt();
-        System.out.println("Suma cyfr tej liczby to: "+digitsSum(number));
+        System.out.println("Suma cyfr tej liczby to: " + digitsSum(number));
     }
 }
