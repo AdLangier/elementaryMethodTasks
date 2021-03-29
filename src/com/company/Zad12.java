@@ -11,7 +11,7 @@ public class Zad12 {
 
         int max = 2;
         for (int i = a; i <= b; i++) {
-            if (Zad11.getNumberOfDivisors(i)> Zad11.getNumberOfDivisors(max)){
+            if (Zad11.getNumberOfDivisors(i) > Zad11.getNumberOfDivisors(max)) {
                 max = i;
             }
         }
@@ -19,12 +19,12 @@ public class Zad12 {
     }
 
     public static void main(String[] args) {
-        Scanner scanner =  new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj dwie liczby");
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         System.out.println("Liczba z największą liczbą dzielników z podanego przedziału to: "
-                +maxDiv(a,b)+" a jest ich: "+Zad11.getNumberOfDivisors(maxDiv(a,b)));
+                + maxDiv(a, b) + " a jest ich: " + Zad11.getNumberOfDivisors(maxDiv(a, b)));
 
     }
 }
